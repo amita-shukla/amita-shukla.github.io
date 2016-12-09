@@ -1,4 +1,4 @@
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, img { 
     display: block;
 }
 
@@ -6,6 +6,10 @@ img {
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
+	border-radius: 50%;
+	margin-left: auto;
+    margin-right: auto;
+	padding : 50px;
 }
 
 #navigation {
@@ -19,6 +23,17 @@ img {
     text-transform: uppercase;
     
 }
+
+.post {
+	text-align : center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 3px;
+}
+
 .video embed,
 .video object,
 .video iframe {
